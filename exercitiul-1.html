@@ -1,0 +1,18 @@
+<script>
+    let input = parseInt(prompt("Ce virsta aveti?"))
+    if(isNaN(input)){
+        alert("Eroare: nu ati introdus un numar")
+    } else {
+        if(input<4){
+            alert("Sunteti prea mic, mergeti pe jos!")
+        } else if(input>85){
+            alert("Sunteti prea batrin, chemati un taxi!")
+        } else if(input>=4 && input<16){
+            alert("Mergeti cu bicicleta!")
+        } else if(input==16 || input==17){
+            alert("Mergeti cu scuterul!")
+        } else {
+            alert("Puteti merge cu masina!")
+        }
+    }
+</script>
